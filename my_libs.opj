@@ -1,0 +1,83 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my_libs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (my-ic2jul
+      (FullPartName "my-ic2jul.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (my-libs
+      (FullPartName "my-libs.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\my_libs.dsn")
+      (Path "Design Resources" ".\my_libs.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\my_libs.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\my_libs.olb")
+      (Select "Design Resources" "Library" ".\my_libs.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 427"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1426 75 514")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1327 375")
+        (Zoom "305"))
+      (Path "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (Package "my-libs"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1526 175 614")
+        (PackageScroll "0 240")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "522 153")
+        (Zoom "180"))
+      (Path "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (Package "atmega128-1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1551 200 639")
+        (PackageScroll "0 60")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "156 64")
+        (Zoom "124"))
+      (Path "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (Package "atmega2560"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1769 125 594")
+        (PackageScroll "0 1368")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "333 47")
+        (Zoom "143"))
+      (Path "C:\USERS\USER\DESKTOP\EXAM\MY_LIBS\MY_LIBS.OLB")
+      (Package "xilinx")))
+  (MPSSessionName "user"))
